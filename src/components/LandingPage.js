@@ -1,4 +1,3 @@
-import { Hidden } from '@mui/material'
 import React from 'react'
 
 function LandingPage() {
