@@ -5,7 +5,7 @@ import VolunteerContent from './components/VolunteerContent';
 
 function App() {
   return (
-    <div className='App'>
+    <div>
      <Navbar/>
      <LandingPage/>
      <VolunteerContent/>

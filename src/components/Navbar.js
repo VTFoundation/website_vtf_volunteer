@@ -9,13 +9,13 @@ function Navbar() {
         <Box xs={{ flexGrow: 1 }}>
           <Toolbar>
             <Box sx={{ display: { flexGrow: 1 } }}>
-              <img src='/assets/logo-small.png' alt='logo' height={40} width={40} />
+            <a href="https://virtuallytesting.com/"><img src='/assets/logo-small.png' alt='logo' height={40} width={40} /></a>
             </Box>
 
             <Box sx={{ textAlign: 'right' }}>
-              <Button>Home</Button>
-              <Button>About</Button>
-              <Button>Contact</Button>
+              <Button href="https://virtuallytesting.com/">Home</Button>
+              <Button href="https://virtuallytesting.com/about.html">About</Button>
+              <Button href="https://virtuallytesting.on.spiceworks.com/portalhttps://virtuallytesting.on.spiceworks.com/portal">Contact</Button>
             </Box>
           </Toolbar>
         </Box>
